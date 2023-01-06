@@ -2,39 +2,101 @@
     margin: 0;
     padding: 0;
 }
-.img01{
-   width: 100%;
-}
+
 header{
+    background-color: #333333de;
     text-align: center;
-    border: 1px solid black;
-    padding: 10px;
+    padding: 50px;
 }
+nav{
+    background-color: #333333de;
+}
+nav ul li{
+   
+    text-align: left;
+    text-indent: 65px;
+    display: inline-block;
+    padding: 20px;
+}
+nav a{
+    color: black;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: rgba(255, 255, 255, 0.575);
+}
+nav
+.img01{
+    width: 100%;
+ }
 article{
     text-align: center;
 }
+div{
+    background-color: rgba(255, 255, 255, 0.76);
+}
 div.block1{
-    border: 1px solid black;
-    max-width: 400px;
-    max-height: 400px;  
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
     position: relative;
     top: -210px;
-    display: inline-block;
-    
+   
+    display: inline-block; 
+    padding: 15.5px;
+    margin: 10px;
+}
+div.block1 > img{
+    width: 240px;
+    height: 240px; 
+    border-radius: 50%;
+}
+div.block1 > p{
+    font-size: 1.5em;
+    line-height: 1.2em;
 }
 div.block2{
-    border: 1px solid black;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
     position: relative;
     top: -210px;
     display: inline-block;
+    padding: 20px;
+    margin: 10px;
+}
+div.block2 > img{
+    width: 240px;
+    height: 240px;    
+    border-radius: 50%;
+}
+div.block2 > p{
+    font-size: 1.5em;
 }
 div.block3{
-    border: 1px solid black;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 500px;
+    max-height: 500px;
+
     position: relative;
     top: -210px;
     display: inline-block;
+    padding: 20px;
+    margin: 10px;
+}
+div.block3 > img{
+    width: 240px;
+    height: 240px; 
+    border-radius: 50%;
+}
+div.block3 > p{
+    font-size: 1.5em;
+}
+footer{
+    background-color: #333333;
+    padding: 120px;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
 }
