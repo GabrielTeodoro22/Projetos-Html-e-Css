@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img01{
+   width: 100%;
+}
+header{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+article{
+    text-align: center;
+}
+div.block1{
+    border: 1px solid black;
+    max-width: 400px;
+    max-height: 400px;  
+    position: relative;
+    top: -210px;
+    display: inline-block;
+    
+}
+div.block2{
+    border: 1px solid black;
+    max-width: 400px;
+    max-height: 400px;
+    position: relative;
+    top: -210px;
+    display: inline-block;
+}
+div.block3{
+    border: 1px solid black;
+    max-width: 400px;
+    max-height: 400px;
+    position: relative;
+    top: -210px;
+    display: inline-block;
+}
