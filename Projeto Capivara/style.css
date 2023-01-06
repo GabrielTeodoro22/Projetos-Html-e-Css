@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    text-align: center;
+}
+
+body{
+    background-color: rgba(0, 0, 255, 0.39);
+}
+
+header{
+    background-color: darkgray;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.568);
+}
+header > h1{
+    font-size: 3em;
+    padding-top: 15px;
+}
+header > p{
+    font-size: 1.2em;
+    padding: 15px;
+}
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 20px;
+}
+article{
+    font-size: 1.5em;
+    line-height: 2em;
+}
+ h2{
+    font-size: 1.5em;
+    text-align: left;
+}
+div#p1{
+    background-color: beige;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.486);
+    padding: 30px;
+    border-radius: 10px 10px 0px 0px;
+}
+div#p1 > img{
+    padding: 10px;
+    width: 100%;
+}
+div#p2{
+    background-color: yellow;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.507);
+    padding: 30px;
+}
+div#p2 > img {
+    background-color: rgba(169, 169, 169, 0.5);
+    padding: 10px;
+    width: 100vh;
+    margin: auto;
+}
+div#p3{
+    background-color: green;
+    box-shadow: 1px 1px 1px black;
+    padding: 30px;
+    border-radius: 0px 0px 10px 10px;
+}
+div#p3 > img{
+    background-color: rgba(169, 169, 169, 0.5);
+    padding: 10px;
+    width: 100%;
+}
+footer{
+    background-color: darkgray;
+    font-size: 1.5em;
+    padding: 30px;
+    padding-top: 30px;
+}
