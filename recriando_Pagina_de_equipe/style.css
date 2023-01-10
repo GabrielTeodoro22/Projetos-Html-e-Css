@@ -6,7 +6,7 @@
 header{
     background-color: #333333de;
     text-align: center;
-    padding: 50px;
+    padding: 25px;
 }
 nav{
     background-color: #333333de;
@@ -27,26 +27,27 @@ nav a{
 nav ul li:hover{
     background-color: rgba(255, 255, 255, 0.575);
 }
-nav
-.img01{
+img.img01{
     width: 100%;
+
  }
 article{
     text-align: center;
 }
 div{
     background-color: rgba(255, 255, 255, 0.76);
+   
 }
 div.block1{
-    max-width: 500px;
-    max-height: 500px;
-    width: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    width: 100vh;
     position: relative;
     top: -210px;
    
     display: inline-block; 
-    padding: 15.5px;
-    margin: 10px;
+    padding: 5.8px;
+    margin: 5px;
 }
 div.block1 > img{
     width: 240px;
@@ -58,14 +59,14 @@ div.block1 > p{
     line-height: 1.2em;
 }
 div.block2{
-    max-width: 500px;
-    max-height: 500px;
-    width: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    width: 100vh;
     position: relative;
     top: -210px;
     display: inline-block;
-    padding: 20px;
-    margin: 10px;
+    padding: 10px;
+    margin: 5px;
 }
 div.block2 > img{
     width: 240px;
@@ -76,14 +77,14 @@ div.block2 > p{
     font-size: 1.5em;
 }
 div.block3{
-    max-width: 500px;
-    max-height: 500px;
-
+    max-width: 400px;
+    max-height: 400px;
+    width: 100vh;
     position: relative;
     top: -210px;
     display: inline-block;
-    padding: 20px;
-    margin: 10px;
+    padding: 10px;
+    margin: 5px;
 }
 div.block3 > img{
     width: 240px;
